@@ -1,0 +1,162 @@
+html,body {
+    overflow-x: hidden;
+    background-color: hsl(227, 10%, 10%) !important;
+}
+
+#lookup{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 38%;
+    background-color:  hsl(227, 10%, 10%);;
+}
+
+#signup{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+    background-color: hsl(227, 10%, 10%);
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 55%; 
+    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; */
+}
+
+#look{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+    background-color: hsl(227, 10%, 10%);
+    position: relative;
+    margin-top: 7%;
+    margin-left: 50%;
+    font-size: 1.5em; 
+    margin-bottom: 40px;
+    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; */
+}
+
+.logo{
+    position: relative;
+    color: black;
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+
+
+.form{
+    position: relative;
+    margin-top: 15%;
+    background-color: hsl(227, 10%, 10%);
+}
+
+.signup-form{
+    position: relative;
+    margin-top: 5%;
+    background-color: hsl(227, 10%, 10%);
+}
+
+#signup-submit{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+    background-color: hsl(227, 10%, 10%);
+    position: relative;
+    margin-top: 6%;
+    margin-left: 50%;
+    margin-bottom: 40px;
+    
+}
+
+h3{
+    color:hsl(227, 10%, 10%);
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+#language{
+    background-color: hsl(227, 10%, 10%);
+    margin-left: 60% ;
+    width: 1000px;
+    outline: none;
+    border: none;
+    font-size: 1.17em;
+    color:white;
+}
+
+
+
+.img-src{
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.user_name{
+    margin-top: 100px;
+    margin-right: 15%;
+    position: relative;
+    float: right;
+    color: whitesmoke;
+}
+
+
+.btns{
+    color: whitesmoke !important;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 35%;
+    display: inline-block;
+}
+
+.user-container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+
+.hr{
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;;
+}
+
+#nyan-cat{
+    /* box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;; */
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 718px;
+}
+
+#submit-btn{
+    height: 50px;
+}
