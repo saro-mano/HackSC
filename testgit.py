@@ -42,7 +42,7 @@ def signup():
             'image_url' : image_url,
             'languages' : list(language_dict.keys())
         })
-        return render_template('signup.html', success="success")
+        return render_template('index.html', success="success")
     return render_template('signup.html')
 
 def insert_lang(username):
